@@ -10,5 +10,3 @@ class MainWindow(QMainWindow):
         central_widget = CentralWidget(self)
 
         self.setCentralWidget(central_widget)
-
-        self.setWindowTitle("Netzwerkanzeige")
